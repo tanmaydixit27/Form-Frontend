@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api/forms";
+const API_BASE_URL = "https://form-backend-1v23.onrender.com/api/forms";
 
 export const getForms = async () => axios.get(API_BASE_URL);
 
